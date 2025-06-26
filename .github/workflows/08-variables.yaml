@@ -22,7 +22,7 @@ jobs:
           echo "Step env var: ${{ env.STEP_VAR }}"
           echo "Step env var 2: $steps_var2"
           echo "Job env var: ${{ env.JOB_VAR }}"
-          echo "Workflow env var: ${{ env.WORKFLOW_VAR }}
+          echo "Workflow env var: ${{ env.WORKFLOW_VAR }}"
           echo "OVERWRITTEN valve ${{env.OVERWRITTEN}}"
       - name: overwite job variable
         env: 
