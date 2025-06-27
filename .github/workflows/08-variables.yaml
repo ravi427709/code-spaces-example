@@ -4,7 +4,6 @@ env:
   OVERWRITTEN: 'I will be overwritten'
 
 on:
-  push:
   workflow_dispatch:
 
 jobs:
