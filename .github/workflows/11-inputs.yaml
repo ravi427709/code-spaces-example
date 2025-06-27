@@ -9,8 +9,8 @@ on:
         default: false
       target: 
         type: environment
-        required: true
         description: "Which environment the workflow will target"
+        required: true
       tag:
         type: choice
           - v1
