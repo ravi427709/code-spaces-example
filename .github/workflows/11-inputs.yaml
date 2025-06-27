@@ -13,10 +13,10 @@ on:
         required: true
       tag:
         type: choice
-          options:
-            - v1
-            - v2
-            - v3
+        options:
+          - v1
+          - v2
+          - v3
         default: v3
         description: "Release from which to build and deploy"
 
@@ -29,7 +29,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     if: ${{ !inputs.dry-run}}
-    environment: {{ inputs.target }}
+    environment: ${{ inputs.target }}
     steps:
       - name: Deploy
         run: echo "Deploying to ${{ inputs.target }} "
