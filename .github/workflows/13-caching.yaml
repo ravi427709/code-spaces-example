@@ -11,8 +11,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    default:
-      runs:
+    defaults:
+      run:
         working-directory: 13-caching/react-app
     steps:
       - name: Checkout code
