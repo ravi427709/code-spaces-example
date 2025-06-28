@@ -5,7 +5,7 @@ on:
 
 jobs:
   backwards-compatibility:
-    name: ${{ matrix.os }}-${{ matrix.node }}
+    name: ${{ matrix.os }}-${{ matrix.node-version }}
     strategy:
       fail-fast: false
       matrix:
