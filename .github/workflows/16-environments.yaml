@@ -1,5 +1,5 @@
 name: 16 - Working with Environments
-run-name: ${{github.run_name}} | env - ${{ inputs.target-env }}
+run-name: ${{github.run-name}} | env - ${{ inputs.target-env }}
 
 
 on:
