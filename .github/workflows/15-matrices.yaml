@@ -34,4 +34,4 @@ jobs:
           echo "Running tests on OS ${{ matrix.os }} and NodeJS ${{ matrix.node-version }}"
           sleep 10
       - name: upload test results
-        run: " Uploading test results"
+        run: echo "Uploading test results"
